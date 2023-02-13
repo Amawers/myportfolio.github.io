@@ -327,6 +327,115 @@ html{
     z-index: -2;
 }
 
+/*skills section*/
+
+#skills{
+    background: #07080B;
+}
+
+.skills h1{
+    color: #6e6e70;
+    text-align: center;
+    font-size: 80px;
+    transform: translateY(20px);
+    opacity: 0.1;
+    padding-top: -20px;
+}
+.skills h5{
+    font-weight: 700;
+    transform: translateY(-65px);
+}
+.skills .title::before{
+    background: #FEC544;
+}
+.skills .title::after{
+    background: #FEC544;
+}
+
+.skills .skill-content .column{
+    margin-top: 40px;
+    width: calc(50% - 50px);
+}
+
+.skills .skill-content .left .text{
+    font-size: 27px;
+    font-weight: 700;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    color: #FEC544;
+}
+.skills .skill-content .left p{
+    color: #A9ADB8;
+    text-align: justify;
+    line-height: 1.4;
+    padding-top: 15px;
+}
+.skills .skill-content .left a{
+    display: inline-block;
+    background: #FEC544;
+    color: #07080B;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 2px solid #FEC544;
+    transition: all 0.3s ease;
+}
+.skills .skill-content .left a:hover{
+    color: #FEC544;
+    background: none;
+}
+.skills .skill-content .right .bars{
+    margin-bottom: 20px;
+}
+.skills .skill-content .right .info{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+    color: #A9ADB8;
+}
+.skills .skill-content .right span{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.skills .skill-content .right .line{
+    height: 2px;
+    width: 100%;
+    background: lightgray;
+    position: relative;
+}
+
+.skills .skill-content .right .line::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #FEC544;
+}
+
+.skills .skill-content .right .ps::before{
+    width: 65%;
+}
+.skills .skill-content .right .mg::before{
+    width: 80%;
+}
+.skills .skill-content .right .axd::before{
+    width: 50%;
+}
+.skills .skill-content .right .uxd::before{
+    width: 90%;
+}
+.skills .skill-content .right .html::before{
+    width: 99%;
+}
+.skills .skill-content .right .dm::before{
+    width: 56%;
+}
+
 .main:hover .service{
     transform: translateY(-50px);
 }
